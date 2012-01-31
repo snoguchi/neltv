@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+  <name>neltv</name>
+  <description>2ちゃんねる実況板ビューア</description>
+  <preference>0</preference>
+  <duplicable>0</duplicable>
+  <width>280</width>
+  <height>164</height>
+  <profile>
+    <spec>AC2.0</spec>
+  </profile>
+</Info>
