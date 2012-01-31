@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<Widget>
+  <Component name="widget">
+
+    <Component name="subject-view">
+      <Prim type="rect" w="280" h="164" rgba="ddddddff"/>
+      <Prim type="rect" w="278" h="162" rgba="ffffffff"/>
+      <Component y="-69">
+	<Bitmap name="logo"/>
+	<Bitmap name="banner"/>
+      </Component>
+      <Component y="12">
+	<Prim type="rect"    w="280" h="140" rgba="ddddddff"/>
+	<Prim type="outline" w="280" h="140" rgba="aaaaaaff"/>
+	<Prim type="rect"    w="272" h="130" rgba="f8f8f8ff"/>
+	<Prim type="outline" w="272" h="130" rgba="aaaaaaff"/>
+	<Component name="frame" h="126">
+	  <Prim name="selector" type="rect" w="270" h="20" rgba="65b3ffff" visible="0"/>
+	  <Component y="-7">
+	    <Memo2D name="text0" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text1" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text2" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text3" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text4" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text5" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	    <Memo2D name="text6" x="-130" w="260" h="18" font_size="14" rgba="000000ff" exceed_dot="1" fade_frames="0"/>
+	  </Component>
+	</Component>
+      </Component>
+    </Component>
+
+    <Component name="dat-view" visible="0" x="10">
+      <Component y="25">
+	<Prim type="rect"    w="300" h="450" rgba="ddddddff"/>
+	<Prim type="outline" w="300" h="450" rgba="aaaaaaff"/>
+	<Prim type="rect"    w="292" h="440" rgba="f8f8f8ff"/>
+	<Prim type="outline" w="292" h="440" rgba="aaaaaaff"/>
+	<Component name="list" y="0" h="438">
+	  <Component name="item0">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item1">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item2">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item3">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item4">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item5">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item6">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item7">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item8">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item9">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item10">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item11">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item12">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item13">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item14">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item15">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item16">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item17">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item18">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="eeeeeeff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	  <Component name="item19">
+	    <Prim   name="bg" type="rect" w="290" h="0" rgba="d5d5d5ff"/>
+	    <Memo2D name="nick" x="-140" w="280" h="14" font_size="12" rgba="888888ff" scroll="1" fade_frames="0"/>
+	    <Memo2D name="text" x="-140" w="280" h="14" font_size="14" rgba="000000ff" scroll="1" fade_frames="0"/>
+	  </Component>
+	</Component>
+	<Prim type="rect" y="-270" w="300" h="50" rgba="000000ff"/>
+	<Prim type="rect" y="270" w="300" h="50" rgba="000000ff"/>
+	<Component y="-222">
+	  <Prim type="rect" w="292" h="6" rgba="aaaaaaff"/>
+	  <Prim type="rect" w="292" h="4" rgba="ddddddff"/>
+	</Component>
+      </Component>
+
+      <Component y="-225">
+	<Prim type="rect" w="300" h="50" rgba="ffffffff"/>
+	<Component y="-9">
+	  <Bitmap name="logo"/>
+	  <Bitmap name="banner"/>
+	</Component>
+	<Memo2D name="title" x="-140" y="8" w="280" h="12" font_size="12" rgba="000000ff" alignment="center" exceed_dot="1" fade_frames="0"/>
+	<Component x="135" y="-11">
+	  <Component name="loading">
+	    <Bitmap name="icon0"/>
+	    <Bitmap name="icon1"/>
+	    <Bitmap name="icon2"/>
+	    <Bitmap name="icon3"/>
+	    <Bitmap name="icon4"/>
+	    <Bitmap name="icon5"/>
+	    <Bitmap name="icon6"/>
+	    <Bitmap name="icon7"/>
+	  </Component>
+	  <Component name="progress" y="12" w="20" visible="0">
+	    <Prim type="rect" w="20" h="3" rgba="ddddddff"/>
+	    <Prim name="thumb" type="rect" h="3" rgba="3e708bff"/>
+	  </Component>
+	</Component>
+      </Component>
+    </Component>
+
+  </Component>
+</Widget>
